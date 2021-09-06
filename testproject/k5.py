@@ -27,6 +27,7 @@ def test_tc01():
     except AssertionError as e:
         pytest.fail(print("Az oldalon megjelenített karakter nem megfelelő", e))
 
+
 # TC02
 # Applikáció helyes működésének ellenőrzése
 def test_tc02():
